@@ -1,0 +1,19 @@
+.home-page {
+  background: linear-gradient(145deg, rgba(20, 160, 160, 0.05), rgba(43, 39, 88, 0.08));
+}
+
+.home-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.home-form {
+  width: min(440px, 100%);
+  gap: 14px;
+}
+
+.start-button {
+  width: min(220px, 70vw);
+}

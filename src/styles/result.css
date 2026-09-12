@@ -1,0 +1,61 @@
+.result-page {
+  background: linear-gradient(145deg, rgba(112, 62, 200, 0.05), rgba(20, 160, 160, 0.05));
+}
+
+.result-panel {
+  min-height: 560px;
+}
+
+.result-panel h1 {
+  margin-bottom: 20px;
+}
+
+.result-summary {
+  margin: 28px 0;
+}
+
+.player-result {
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
+  font-weight: 700;
+  color: #223a57;
+  margin: 0 0 12px;
+}
+
+.score-display {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  color: #1a8a8a;
+  margin: 8px 0;
+}
+
+.record-display {
+  font-size: 1.25rem;
+  color: #34415c;
+}
+
+.record-display span {
+  color: #0f9a88;
+  font-weight: 800;
+}
+
+.feedback-form {
+  gap: 16px;
+}
+
+.feedback-input {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.feedback-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thanks-message {
+  color: #126e62;
+  font-weight: 800;
+  margin-top: 10px;
+}
